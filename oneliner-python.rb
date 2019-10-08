@@ -5,7 +5,7 @@ class OnelinerPython < Formula
   url "https://github.com/ryuichiueda/opy/archive/v1.9.3tar.gz"
   sha256 "2424377ce624ad1ca04f335fb06677dd67999664e534ff61159653f46afa8db4"
   head "https://github.com/ryuichiueda/opy.git"
-  version "1.9.3
+  version "1.9.3"
 
   def install
     bin.install "opy"
