@@ -2,10 +2,10 @@ require "formula"
 
 class OnelinerPython < Formula
   homepage "https://github.com/ryuichiueda/opy"
-  url "https://github.com/ryuichiueda/opy/archive/v2.2.2.tar.gz"
-  sha256 "dfe8519593a4ef0d5e59a550b5be1614dc288e1a9060da89efdf2e1423e8f493"
+  url "https://github.com/ryuichiueda/opy/archive/v2.3.0.tar.gz"
+  sha256 "d439bbe246bd8ac3e60a649a1a9e4847c712924e8338af66b711f1b93307bd80"
   head "https://github.com/ryuichiueda/opy.git"
-  version "2.2.2"
+  version "2.3.0"
 
   def install
     bin.install "opy"
